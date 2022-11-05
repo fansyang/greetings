@@ -27,11 +27,6 @@ func randomFormat() string {
 	return formats[rand.Intn(len(formats))]
 }
 
-func hello() {
-    var a string
-	fmt.Println("Hello, world!")
-}
-
 // Hello returns a greeting for the named person.
 func Hello(name string) (string, error) {
 	// If no name was given, return an error with a message
